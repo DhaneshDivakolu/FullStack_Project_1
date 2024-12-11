@@ -1,0 +1,32 @@
+.inp-div{
+    float: left;
+    width: 50%;
+    background-color: antiquewhite;
+    margin: 3% 0% 0% 25%;
+}
+.inp-div h1{
+    float: left;
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+}
+.inp-div input, .inp-div select{
+    float: left;
+    width: 30%;
+    margin: 1% 0% 0% 2%;
+    font-size: 30px;
+}
+.inp-div button{
+    float: left;
+    width: 30%;
+    margin: 3% 0% 2% 35%;
+    font-size: 30px;
+}
+.res-div{
+    float: left;
+    width: 50%;
+    color: yellowgreen;
+    text-align: center;
+    margin: 5% 0% 0% 25%;
+    font-size: 50px;
+}

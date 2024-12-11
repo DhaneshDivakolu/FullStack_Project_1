@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator Project</title>
+        <link rel="stylesheet" href="../static/css/styles.css">
+    </head>
+    <body>
+        <div class="inp-div">
+            <form action="/" method="post">
+                <h1>Simple Calculator Project</h1>
+                <input type="number" required  placeholder="Enter num1" name="inp1">
+                <select name="opr">
+                    <option value="." disabled selected>Select</option>
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                    <option value="mul">x</option>
+                    <option value="div">/</option>
+                </select>
+                <input type="number" required  placeholder="Enter num1" name="inp2">
+                <button type="submit">Calculate</button>
+            </form>
+        </div>
+        <div class="res-div">
+            {{output}}
+        </div>
+    </body>
+</html>
