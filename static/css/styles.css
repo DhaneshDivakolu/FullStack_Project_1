@@ -1,10 +1,10 @@
-.inp-div{
+.inp-div {
     float: left;
     width: 50%;
     background-color: antiquewhite;
     margin: 3% 0% 0% 25%;
 }
-.inp-div h1{
+.inp-div h1, .reg-div h1, .log-div h1{
     float: left;
     width: 100%;
     font-size: 45px;
@@ -16,7 +16,7 @@
     margin: 1% 0% 0% 2%;
     font-size: 30px;
 }
-.inp-div button{
+.inp-div button, .reg-div button, .log-div button{
     float: left;
     width: 30%;
     margin: 3% 0% 2% 35%;
@@ -29,4 +29,22 @@
     text-align: center;
     margin: 5% 0% 0% 25%;
     font-size: 50px;
+}
+.reg-div{
+    float: left;
+    width: 45%;
+    background-color: aqua;
+    margin: 3% 0% 0% 3%;
+}
+.reg-div input, .log-div input{
+    float: left;
+    width: 50%;
+    margin: 2% 0% 2% 25%;
+    font-size: 30px;
+}
+.log-div{
+    float: left;
+    width: 45%;
+    background-color: aqua;
+    margin: 6% 0% 0% 3%;
 }
